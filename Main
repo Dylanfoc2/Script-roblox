@@ -1,0 +1,111 @@
+local Mercury = loadstring(game:HttpGet("https://raw.githubusercontent.com/deeeity/mercury-lib/master/src.lua"))()
+
+local GUI = Mercury:Create{
+    Name = "Test gui",
+    Size = UDim2.fromOffset(600, 400),
+    Theme = Mercury.Themes.Dark,
+    Link = "https://github.com/deeeity/mercury-lib"
+}
+
+function code()
+GUI:Notification{
+	Title = "code",
+	Text = "code is 17335",
+	Duration = 3,
+	Callback = function() end
+}
+end
+
+function keys()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.71275473, 10838.582, 433.803986, -0.986348927, 7.18289002e-08, 0.164668888, 7.02092748e-08, 1, -1.56560116e-08, -0.164668888, -3.88100663e-09, -0.986348927)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-247.368164, 10846.4844, 551.014832, 0.0773055628, -3.1875846e-08, -0.99700743, 7.55160201e-08, 1, -2.61161937e-08, 0.99700743, -7.32711101e-08, 0.0773055628)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-370.200958, 10847.4844, -43.1043701, 0.998769403, 9.4708021e-08, 0.0495949574, -9.17719305e-08, 1, -6.14784739e-08, -0.0495949574, 5.68513947e-08, 0.998769403)
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(427.838409, 10883.9902, -1785.59924, -0.159416169, -1.02259765e-08, -0.987211466, 3.30152106e-09, 1, -1.08915801e-08, 0.987211466, -4.99559327e-09, -0.159416169)
+end
+
+GUI:Notification{
+	Title = "executed",
+	Text = "u can now troll like a god",
+	Duration = 3,
+	Callback = function() end
+}
+
+local Tab = GUI:Tab{
+	Name = "teleports",
+	Icon = "rbxassetid://8569322835"
+}
+
+Tab:Button{
+	Name = "tp to end",
+	Description = "tp to the final level",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(384.20932, 10864.5566, -1737.59192, 1, -1.19752372e-06, 8.58289241e-06, -7.31365857e-09, 0.99028933, 0.139021739, -8.66602841e-06, -0.139021739, 0.99028933)
+	end
+}
+
+Tab:Button{
+	Name = "tp to the library",
+	Description = "the bff of nerds",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.891663, 10850.4844, -362.335052, 0.0261727106, 9.23308434e-08, -0.999657452, -4.47138682e-09, 1, 9.22454149e-08, 0.999657452, 2.0555424e-09, 0.0261727106)
+	end
+}
+
+Tab:Button{
+	Name = "tp to jake shop",
+	Description = "Jeff retired",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-198.760269, 10856.4834, -365.526154, 0.699502945, 2.33306743e-08, 0.71462971, -9.26086301e-08, 1, 5.80011381e-08, -0.71462971, -1.06752843e-07, 0.699502945)
+	end
+}
+
+Tab:Button{
+	Name = "Get all keys",
+	Description = "coems",
+	Callback = function()
+	keys()
+	end
+}
+
+local Tab = GUI:Tab{
+	Name = "Misc",
+	Icon = "rbxassetid://8569322835"
+}
+Tab:Button{
+	Name = "get code",
+	Description = "Tell the code!",
+	Callback = function()
+	code()
+	end
+}
+
+local Tab = GUI:Tab{
+	Name = "Badges",
+	Icon = "rbxassetid://8569322835"
+}
+
+Tab:Button{
+	Name = "library badge",
+	Description = "yes",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-248.711563, 10856.4834, -364.09256, -0.251642346, 1.0655986e-07, 0.967820287, 1.92831759e-08, 1, -1.05089136e-07, -0.967820287, -7.7822282e-09, -0.251642346)
+	end
+}
+
+Tab:Button{
+	Name = "Rock low badge",
+	Description = "these names are getting weirder",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(412.285553, 10553.2549, -1778.2439, -0.885146737, 0.458198726, -0.0810503885, -1.98081302e-08, 0.174185008, 0.984712958, 0.465311974, 0.871615469, -0.15417929)
+	end
+}
+Tab:Button{
+	Name = "u can run",
+	Description = "epik",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-332.871094, 10846.7383, 139.877045, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+	end
+}
