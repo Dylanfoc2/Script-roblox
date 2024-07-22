@@ -2,3 +2,4 @@ local flexworks = game.ReplicatedStorage.Movesets.KJ.UltMoves["Unlimited Flexwor
 local dropkick = game.ReplicatedStorage.Movesets.KJ.UltMoves["20-20-20 Dropkick"]:Clone()
 local seasons = game.ReplicatedStorage.Movesets.KJ.UltMoves["Five Seasons"]:Clone()
 local stoic = game.ReplicatedStorage.Movesets.KJ.UltMoves["Stoic Bomb"]:Clone()
+local Player = game.Players.LocalPlayer
